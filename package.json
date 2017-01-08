@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/rbvea/travis-apologize-test#readme",
   "pre-commit": [
-    "test",
     "validate"
   ],
   "dependencies": {
