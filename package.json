@@ -18,11 +18,10 @@
     "url": "https://github.com/rbvea/travis-apologize-test/issues"
   },
   "homepage": "https://github.com/rbvea/travis-apologize-test#readme",
-  "pre-commit": [
-    "validate"
-  ],
+  "pre-commit": [],
   "dependencies": {
-    "precommit-hook": "^3.0.0"
+    "precommit-hook": "^3.0.0",
+    "travis-apologize": "^0.0.9"
   },
   "devDependencies": {
     "ava": "^0.17.0"
