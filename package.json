@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava test",
-    "validate": "travis-apologize"
+    "apologize": "travis-apologize"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/rbvea/travis-apologize-test/issues"
   },
   "homepage": "https://github.com/rbvea/travis-apologize-test#readme",
-  "pre-commit": ["validate"],
+  "pre-commit": ["apologize"],
   "dependencies": {
     "precommit-hook": "^3.0.0",
     "travis-apologize": "^0.0.9"
